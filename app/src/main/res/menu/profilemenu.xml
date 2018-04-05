@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="TYPE">
+    <item android:id="@+id/complain" android:title="Complain Box"/>
+    <item android:id="@+id/conatct" android:title="Contact Faculty"/>
+    <item android:id="@+id/exam" android:title="Exam Seating"/>
+    <item android:id="@+id/od" android:title="OD Conformer"/>
+    <item android:id="@+id/none" android:title="------------------"/>
+    <item android:id="@+id/help" android:title="HELP"/>
+
+</menu>

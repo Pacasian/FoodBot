@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView10">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    >
+    <ImageView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_people_black_24dp"
+        android:layout_gravity="center"
+        android:id="@+id/targetprofile"
+        android:onClick="targetpic"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/proname"
+        android:hint="Name"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/proroll"
+        android:inputType="number"
+        android:hint="Address"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:layout_width="95dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/spin1"
+            android:layout_height="wrap_content"
+            android:hint="@string/day"></Spinner>
+        <Spinner
+            android:layout_width="120dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/spin2"
+            android:layout_height="wrap_content"
+            android:hint="@string/month"></Spinner>
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Year"
+            android:maxLines="4"
+            android:id="@+id/proyear"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/probranch"
+        android:hint="Food Branch"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/prosection"
+        android:hint="Food Section"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:id="@+id/proseme"
+        android:hint="Location"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/procontact"
+        android:inputType="number"
+        android:hint="Contact Number"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/proemail"
+        android:hint="Email "
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/propassword"
+        android:inputType="textPassword"
+        android:hint="Password"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/save"
+        android:id="@+id/btnsaveinfo"/>
+
+
+</LinearLayout>
+    </ScrollView>

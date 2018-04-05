@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+        <!---     <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 >
+                 <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginTop="100dp"
+                 android:orientation="horizontal"
+                 android:background="@drawable/layoutform">
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:src="@drawable/_pdf"/>
+                 <TextView
+                     android:layout_width="200dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="5dp"/>
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginTop="5dp"
+                 android:orientation="horizontal"
+                 android:background="@drawable/layoutform">
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:src="@drawable/_pdf"/>
+                 <TextView
+                     android:layout_width="200dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="5dp"/>
+
+             </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="5dp"
+             android:orientation="horizontal"
+             android:background="@drawable/layoutform">
+             <ImageView
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/_pdf"/>
+             <TextView
+                 android:layout_width="200dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"/>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="5dp"
+             android:orientation="horizontal"
+             android:background="@drawable/layoutform">
+             <ImageView
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/_pdf"/>
+             <TextView
+                 android:layout_width="200dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"/>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="5dp"
+             android:orientation="horizontal"
+             android:background="@drawable/layoutform">
+             <ImageView
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/_pdf"/>
+             <TextView
+                 android:layout_width="200dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"/>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="5dp"
+             android:orientation="horizontal"
+             android:background="@drawable/layoutform">
+             <ImageView
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/_pdf"/>
+             <TextView
+                 android:layout_width="200dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"/>
+
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="5dp"
+             android:orientation="horizontal"
+             android:background="@drawable/layoutform">
+             <ImageView
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/_pdf"/>
+             <TextView
+                 android:layout_width="200dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"/>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="5dp"
+             android:orientation="horizontal"
+             android:background="@drawable/layoutform">
+             <ImageView
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/_pdf"/>
+             <TextView
+                 android:layout_width="200dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"/>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="5dp"
+             android:orientation="horizontal"
+             android:background="@drawable/layoutform">
+             <ImageView
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/_pdf"/>
+             <TextView
+                 android:layout_width="200dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"/>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="5dp"
+             android:orientation="horizontal"
+             android:background="@drawable/layoutform">
+             <ImageView
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/_pdf"/>
+             <TextView
+                 android:layout_width="200dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"/>
+
+         </LinearLayout>
+
+
+     </LinearLayout>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="120dp"
+            android:layout_height="600dp"
+            android:paddingTop="20dp"
+            android:text="FoodBot is a food ordering and delivery company based out of Bangalore, India. Foodbot was inspired by the thought of providing a complete food ordering and delivery solution from the best neighbourhood restaurants to the urban foodie. A single window for ordering from a wide range of restaurants, we have our own exclusive fleet of delivery personnel to pickup orders from restaurants and deliver it to customers . Having our own fleet gives us the flexibility to offer customers a no minimum order policy on any restaurant and accept online payments for all partner restaurants that we work with. Our delivery personnel carry one order at a time which ensures we get reliable and fast deliveries."/>
+
+    </RelativeLayout>
+    </ScrollView>

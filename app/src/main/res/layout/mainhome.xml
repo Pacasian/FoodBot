@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView4">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="110dp"
+    android:background="#006064"
+    android:layout_height="500dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="135dp"
+        android:textSize="50dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="\t Welcome to \n \t   FoodBot"
+        android:id="@+id/targethindu"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Type your favourite Food....:)"
+        android:textColor="#000"
+        android:drawableLeft="@drawable/ic_event_seat_black_24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"/>
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:hint=" Number of members....:)"
+        android:textColor="#000"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+           <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="5dp"
+               android:text="Apply"/>
+
+
+
+</LinearLayout>
+</ScrollView>
